@@ -9,6 +9,9 @@ public class ProfileCreatedEvent implements java.io.Serializable {
     private Integer age;
     private String occupation;
 
+    public ProfileCreatedEvent() {
+    }
+
     public ProfileCreatedEvent(String email, String firstName, String lastName, Integer age, String occupation) {
         this.email = email;
         this.firstName = firstName;
